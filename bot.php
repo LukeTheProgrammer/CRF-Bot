@@ -9,7 +9,7 @@ user_ids($post_array);
 $text_array = explode(" ", $post_array['text']);
 
 if( trim($text_array[0]) === 'bot' ){
-	bot_commands($post_array);
+  bot_commands($post_array);
 }
 
 ?>
