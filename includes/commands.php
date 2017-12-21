@@ -56,4 +56,9 @@ function bot_lmgtfy($post){
   return GM_post( robot_id($post['group_id']), $lmgtfy);
 }
 
+function bot_greatercox($post){
+  $text = "Reid Cox is the Greater Cox";
+  return GM_post( robot_id($post['group_id']), $text);  
+}
+
 ?>
