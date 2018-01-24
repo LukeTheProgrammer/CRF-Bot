@@ -24,12 +24,12 @@ function bot_wt($post){
 }
 
 function bot_champ($post){
-  $text = "Current Champion: David Barnes";
+  $text = "Current Champion: Thomas Cox";
   return GM_post( robot_id($post['group_id']), $text);
 }
 
 function bot_sacko($post){
-  $text = "Current Sacko Bitch: Luke Henry (2x)";
+  $text = "Current Sacko Bitch: Kyle Kraft (2x)";
   return GM_post( robot_id($post['group_id']), $text);
 }
 
